@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Mobilidade Urbana - Reporte Aqui</title>
+    <link rel="stylesheet" type="text/css" href="geral.css">
+    
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+</head>
+<body>
+
+    <!-- NAV BAR -->
+    <nav class="menu1">
+        <ul type="none">
+            <li><a href="index.html">Início</a></li>
+            <li><a href="sustentabilidade.html">Sustentabilidade</a></li>
+            <li><a href="acessibilidade.html">Acessibilidade</a></li>
+            <li><a href="desenvolvimento.html">Desenvolvimento</a></li>
+            <li><a href="arquitetura.html">Arquitetura</a></li>
+            <li><a href="plano_mobilidade.html">Plano da Mobilidade</a></li>
+            <li><a href="historico.html">Contexto Histórico</a></li>
+            <li><a href="tabela.html">Estatísticas</a></li>
+            <li><a href="congestionamento.html">Congestionamento</a></li>
+            <li><a href="contate.html">Reporte Aqui</a></li>
+        </ul>
+    </nav>
+    <!-- NAV BAR -->
+
+    <!-- formulário -->
+    <div class="container-formulario">
+    <form class="formulario">
+        <fieldset class="fieldset1">
+
+        <!-- legenda principal -->
+        <legend class="preencha">Preencha com as suas informações</legend>
+
+        <!-- NOME INPUT -->
+        <label for="nome">Seu Nome</label>
+        <input class="nome" size="40" type="text" name="Nome Pessoa" placeholder="Digite o nome aqui" required="required">
+        <br> <br>
+
+        <!-- EMAIL INPUT-->
+        <label for="E-Mail">Seu E-Mail</label>
+        <input class="email" size="40" type="email" name="E-Mail" placeholder="Digite o E-Mail aqui" required="required">
+        <br> <br>
+
+        <!-- MOTIVO TEXTEAREA -->
+        <label for="Motivo">O que aconteceu?</label>
+        <textarea class="textarea" id="Motivo" cols="45" rows="10" wrap="hard" maxlength="400" placeholder="Nos conte sobre o ocorrido nesta caixa"></textarea>
+
+        <br>
+        <!-- legends secundária -->
+        <legend class="diga-mais">Diga mais sobre você</legend>
+
+        <!-- selecionar com o que você trabalha (?) -->
+        <label class="tipo-de-trabalho" for="selecionar1">Tipo de Trabalho:</label>
+        <select name="selecionar">
+            <option value="publico">Funcionário Público</option>
+            <option value="">Funcionário Empresa Privada</option>
+            <option value="">Profissional Autônomo</option>
+            <option value="">Profissional Liberal</option>
+        </select>
+    </form>
+    </div>
+</body>
+</html>
